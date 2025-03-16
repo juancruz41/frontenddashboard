@@ -2,6 +2,12 @@
   command = "npm run build"
   publish = "dist"
 
+[dev]
+  command = "vite"
+  port = 5173
+  publish = "dist"
+
+# Redirección para Single Page Application (SPA) como React + Vite
 [[redirects]]
   from = "/*"
   to = "/index.html"
